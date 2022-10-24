@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text';
+}
+
+.navbar {
+  
+  padding-right: 20px;
+}
+
+
+/*ABOUT*/
+
+.midTitle {
+  text-align: center; 
+  
+}
+
+.midTitle h1 {
+  font-size: 50px;
+  color: #bb3d26;
+  margin-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.color {
+  margin: 0;
+  padding: 0;
+  background-color: #fde5e2;
+}
+
+.wrapper {
+  margin: 10%;
+}
+
+#bottom-image {
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+
+#text {
+  padding: 5%;
+}
+
+#text p {
+  font-size: 20px;
+}
+
+#link {
+  color: black;
+}
+
+#link:hover {
+  color: grey;
+}
+
+/*FOUR FIGURES CENTER*/
+
+.lowerTitle h1 {
+  font-size: 50px;
+  margin-left: 5%;
+}
+
+.figure h1 {
+  text-align: center; 
+  padding-top: 10%;
+  font-size: 50px;
+}
+
+.figure {
+  margin: 8%;
+}
+
+.figure-caption {
+  font-size: 20px;
+  
+}
+
+#link {
+  color: black;
+}
+
+#link:hover {
+  color: grey;
+}
+
+
+/*VIDEO*/
+.embed-responsive-item {
+    width: 75%;
+    height: 600px;
+    object-fit: cover;
+    z-index: -100;
+    display: block;
+    margin: 50px auto;
+}
