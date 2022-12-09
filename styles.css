@@ -111,23 +111,10 @@ h3 {
 }
 #quote { 
  font-size: 40px; 
- font-weight: bold;
 }
 .author {
  font-weight: normal;
  font-size: 20px
-}
-
-/*CARDS*/
-.card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 25px; /* Added */
-}
-
-.card:hover{
-  transform: scale(1.1);
-  transition: all ease 500ms;
 }
 
 /*STAY TUNED*/

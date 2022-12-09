@@ -57,12 +57,34 @@ body {
   color: grey;
 }
 
-/*FOUR FIGURES CENTER*/
+/*ABOUT ROWS*/
 
 .lowerTitle h1 {
   font-size: 50px;
   margin-left: 5%;
 }
+
+#image {
+  height: auto;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+#about_text {
+    text-align: center; 
+    font-size: 50px;
+}
+
+#about_cols {
+    padding-right: 10%;
+}
+
+#about_link_text {
+    text-align: center;
+    font-size: 25px;
+}
+/*FOUR FIGURES CENTER*/
+
 
 .figure h1 {
   text-align: center; 
@@ -87,13 +109,31 @@ body {
   color: grey;
 }
 
+/*CONTACT*/
+.contact-wrapper {
+    padding-top: 10%;
+}
+.contact {
+  height: 50vh;
+  width: 100vw;
+  background-color: #bb3d26;
+  border-radius: 0 !important;
+  padding-top: 10%;
+}
 
-/*VIDEO*/
-.embed-responsive-item {
-    width: 75%;
-    height: 600px;
-    object-fit: cover;
-    z-index: -100;
+.contact-title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 25px;
+  opacity: .6; 
+  font-style: italic; 
+  text-align: center;
+}
+
+#about_button {
+    margin: 0 auto;
     display: block;
-    margin: 50px auto;
 }
