@@ -152,3 +152,16 @@ h3 {
 
 /*FOOTER*/
 
+h4 {
+  color: white;
+  font-size: 25px;
+}
+
+.git {
+  color:white;
+  text-decoration: none;
+}
+
+.git:hover {
+  color:red;
+}
